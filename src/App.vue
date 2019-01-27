@@ -1,8 +1,5 @@
 <template>
-  <div id="app">
-    <img width="25%" src="./assets/logo.png">
-    <HelloWorld/>
-  </div>
+  <div id="app"><img width="25%" src="./assets/logo.png" /> <HelloWorld /></div>
 </template>
 
 <script>
@@ -18,7 +15,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
